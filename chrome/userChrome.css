@@ -1,0 +1,132 @@
+/* Hide default Firefox tabs */
+#tabbrowser-tabs,
+#TabsToolbar-customization-target {
+  visibility: collapse !important;
+}
+/* Clean up leftover items when removing tabs */
+#nav-bar {
+  box-shadow: none !important;
+  border-top: none !important;
+  color: white !important;
+}
+/* Bars on top and bottom transparent and borderless */
+#main-menubar,
+#nav-bar,
+#customToolbars,
+#TabsToolbar,
+#PersonalToolbar,
+#web-developer-toolbar,
+#browser-bottombox {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: white;
+}
+/* Move Minimize/Maximize/Close buttons */
+#TabsToolbar > .titlebar-buttonbox-container {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+/* Fix clickable height of Minimize/Maximize/Close buttons */
+.titlebar-button {
+  min-height: 78px !important;
+}
+/* 15px for dragging whole window by mouse*/
+#titlebar {
+  appearance: none !important;
+  height: 15x !important;
+}
+/* Fix for main menu calling by Alt button */
+#titlebar > #toolbar-menubar {
+  margin-top: 10px;
+}
+
+/* Nav bar margins */
+#nav-bar {
+  margin-right: 140px;
+  color: white;
+}
+/* Bookmark bar margins */
+#PersonalToolbar {
+  margin-right: 144px !important;
+}
+/* Bookmark folder vertical margin */
+#PlacesToolbar menupopup {
+  margin-top: -1px !important;
+}
+
+/* Title bar items color */
+#titlebar {
+  color: white;
+}
+/* Right-click context menu color */
+.menupopup-arrowscrollbox {
+  /* background: rgb(255, 244, 222, .9) !important; */
+  /* color: rgb(0, 0, 0) !important; */
+  border: 2px solid steelblue !important;
+}
+/* Firefox downloads and hamburger menu color */
+:root {
+  /* --arrowpanel-background: rgb(255, 244, 222, .9) !important; */
+  /* --arrowpanel-color: rgb(0, 0, 0) !important; */
+  --arrowpanel-border-color: steelblue !important;
+  --panel-separator-color: var(--arrowpanel-border-color) !important;
+  --panel-description-color: gray !important;
+}
+/* Bookmark bar text color and shadow */
+#PlacesToolbar {
+  color: white;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+/* URL bar border */
+#urlbar-background {
+  border-color: steelblue !important;
+  border: 2px solid steelblue !important;
+}
+
+/* Sidebar min and max width removal */
+#sidebar {
+  max-width: none !important;
+  min-width: 0px !important;
+}
+/* Hide splitter, when using Tree Style Tab. */
+#sidebar-box[sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action']
+  + #sidebar-splitter {
+  display: none !important;
+}
+/* Hide sidebar header, when using Tree Style Tab. */
+#sidebar-box[sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action']
+  #sidebar-header {
+  visibility: collapse;
+}
+/* Shrink sidebar until hovered, when using Tree Style Tab. */
+:root {
+  --thin-tab-width: 29px;
+  --wide-tab-width: 300px;
+}
+#sidebar-box:not(
+    [sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action']
+  ) {
+  min-width: var(--wide-tab-width) !important;
+  max-width: none !important;
+}
+#sidebar-box[sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action'] {
+  position: relative !important;
+  transition: all 0.2s ease !important;
+  min-width: var(--thin-tab-width) !important;
+  max-width: var(--thin-tab-width) !important;
+  border-right: 1px solid gray !important;
+  z-index: 2;
+}
+#sidebar-box[sidebarcommand='treestyletab_piro_sakura_ne_jp-sidebar-action']:hover {
+  transition: all 0.2s ease !important;
+  transition-delay: 0.1s !important;
+  min-width: var(--wide-tab-width) !important;
+  max-width: var(--wide-tab-width) !important;
+  margin-right: calc(
+    (var(--wide-tab-width) - var(--thin-tab-width)) * -1
+  ) !important;
+  z-index: 1;
+}
