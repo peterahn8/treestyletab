@@ -1,0 +1,67 @@
+{
+  "__ConfigsMigration__userValeusSameToDefaultAreCleared": true,
+  "animationForce": true,
+  "autoCollapseExpandSubtreeOnAttach": false,
+  "autoCollapseExpandSubtreeOnSelect": false,
+  "autoGroupNewTabsFromBookmarks": false,
+  "autoGroupNewTabsFromPinned": false,
+  "cachedExternalAddons": [
+    "tst-colored-tabs@murz",
+    "{03e458a7-34a4-4ec9-b37b-952918c7e07b}",
+    "tst-more-tree-commands@piro.sakura.ne.jp"
+  ],
+  "chunkedUserStyleRules0": "LyogSGlnaGxpZ2h0IGFuaW1hdGlvbiAqLwovKiBAa2V5ZnJhbWVzIGNvbG9yIHsKICAwJSB7CiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBub25lOwogIH0KICA1MCUgewogICAgYmFja2dyb3VuZC1jb2xvcjogIzAwMDAwMDMzOwogIH0KfSAqLwoKLyogSGlkZSBzY3JvbGwgYmFyICovCiN0YWJiYXIgeyAKICBvdmVyZmxvdy15OiBzY3JvbGw7Cn0KOnJvb3QubGVmdCAjdGFiYmFyLAojdGFiQ29udGV4dE1lbnUsCiN0YWJDb250ZXh0TWVudSB1bCB7CiAgbWFyZ2luLWxlZnQ6IC0xNXB4Owp9Cjpyb290LnJpZ2h0ICN0YWJiYXIgewogIG1hcmdpbi1yaWdodDogLTE1cHg7Cn0KCi8qIEhpZGUgY2xvc2Vib3hlcyAqLwp0YWItY2xvc2Vib3ggewogIGRpc3BsYXk6IG5vbmU7Cn0KCi8qIFRhYiB0ZXh0IHNoYWRvdyBmb3IgcmVhZGFiaWxpdHkgKi8KdGFiLWxhYmVsIHsKICB0ZXh0LXNoYWRvdzogMnB4IDJweCAzcHggcmdiYSgwLCAwLCAwLCAuMik7Cn0KCi8qIEFjdGl2ZSB0YWIgcHJvcGVydGllcyAqLwp0YWItaXRlbS5hY3RpdmUgLmJhY2tncm91bmQgewogIC8qYmFja2dyb3VuZC1jb2xvcjogcmdiKDI1NSwwLDApOyovCiAgYm9yZGVyLXJhZGl1czogMHB4OwogIGJvcmRlci10b3A6IDRweCB3aGl0ZTsKICBib3JkZXItYm90dG9tOiA0cHggd2hpdGU7CiAgYm9yZGVyLXJpZ2h0OiAwcHggd2hpdGU7CiAgYm9yZGVyLWxlZnQ6IDBweCB3aGl0ZTsKICBib3JkZXItc3R5bGU6IHNvbGlkOwogIC8qIGFuaW1hdGlvbi1uYW1lOiBjb2xvcjsKICBhbmltYXRpb24tZHVyYXRpb246IDJzOwogIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IGluZmluaXRlOyAqLwp9CgovKiBDaGFuZ2Ugc3R5bGluZyBvZiBwZW5kaW5nICh1bmxvYWRlZCkgdGFicyAqLwp0YWItaXRlbS5kaXNjYXJkZWQgdGFiLWl0ZW0tc3Vic3RhbmNlIHsKICBvcGFjaXR5OiAwLjc1Owp9CnRhYi1pdGVtLmRpc2NhcmRlZCAubGFiZWwtY29udGVudCB7CiAgY29sb3I6IHJnYigyNTUsMTUwLDE1MCk7Cn0KLyogVW5yZWFkIHRhYnMgYXJlIGl0YWxpY2l6ZWQgKi8KdGFiLWl0ZW0udW5yZWFkIC5sYWJlbC1jb250ZW50IHsKICBmb250LXN0eWxlOiBpdGFsaWM7Cn0KCi8qIFR3aXN0eSB2aXNpYmlsaXR5ICovCi50YWIgLnR3aXN0eSB7CiAgLyogdmlzaWJpbGl0eTogY29sbGFwc2UgIWltcG9ydGFudDsgKi8KICBvcmRlcjogOTk5OTsKfQovKiBIaWRlIC50d2lzdHkgaWYgdGhlcmUgaXMgbmVzdGVkIHRhYiAqLwovKiB0YWItaXRlbTpub3QoW2RhdGEtY2hpbGQtaWRzXSkgdGFiLXR3aXN0eSwgdGFiLWl0ZW0ucGlubmVkIHRhYi10d2lzdHksIHRhYi1pdGVtLmNvbGxhcHNlZCB0YWItdHdpc3R5IHsKICB2aXNpYmlsaXR5OiBjb2xsYXBzZSAhaW1wb3J0YW50Owp9ICovCi8qIERpc2FibGUgdHdpc3R5IHRyYW5zZm9ybSBhbmltYXRpb24gKi8KOnJvb3QuYW5pbWF0aW9uIHRhYi1pdGVtOm5vdCguY29sbGFwc2VkKSB0YWItdHdpc3R5IHsKICB0cmFuc2l0aW9uOiBub25lOwp9CgovKiBUYWIgaGVpZ2h0IGFuZCBtYXJnaW4tbGVmdCAqLwp0YWItaXRlbSB7CiAgLS10YWItc2l6ZTogMzBweCAhaW1wb3J0YW50OwogIG1hcmdpbi1sZWZ0OiA3cHg7Cn0KdGFiLWl0ZW0tc3Vic3RhbmNlIHsKICBoZWlnaHQ6IHZhcigtLXRhYi1zaXplKTsKfQovKiBUYWIgbGFiZWwgbWFyZ2luICovCnRhYi1sYWJlbCB7CiAgbWFyZ2luLWxlZnQ6IDdweCAhaW1wb3J0YW50Owp9Ci8qIE1vdmUgZmF2aWNvbiAqLwp0YWItZmF2aWNvbiAgewogIG1hcmdpbi1sZWZ0OiAzcHg7Cn0KLyogUGlubmVkIHRhYiBzdHlsZXMgKi8KLnBpbm5lZCB7CiAgbWFyZ2luLWxlZnQ6IDBweDsKICBib3JkZXItcmFkaXVzOiAzMHB4Owp9Ci5waW5uZWQgdGFiLWZhdmljb24gewogIG1hcmdpbi1sZWZ0OiAwcHggIWltcG9ydGFudDsKfQoKLyogTmV3IHRhYiBidXR0b24gYWxpZ25tZW50ICovCi5uZXd0YWItYnV0dG9uOjphZnRlciB7CiAgbWFyZ2luLXRvcDogM3B4Owp9Ci8qIE5ldyB0YWIgYW5jaG9yIGFsaWdubWVudCAqLwoubmV3dGFiLWFjdGlvbi1zZWxlY3Rvci1hbmNob3IgewogIG1hcmdpbi10b3A6IDJweDsKICB2aXNpYmlsaXR5OiBjb2xsYXBzZSAhaW1wb3J0YW50OyAvKiBIaWRlIHRoZSBidXR0b24gKi8KfQovKiBDZW50ZXIgdGhlIG5ldyB0YWIgc2lnbiBpbiBjb2xsYXBzZWQgc3RhdGUuICovCi5uZXd0YWItYnV0dG9uewogICAgcGFkZGluZy1sZWZ0OiAxMXB4ICFpbXBvcnRhbnQ7Cn0KCi8qIEhpZGUgbGVmdCBzaWRlIGhpZ2hsaWdodGVyIGluIFBob3RvbiAqLwouaGlnaGxpZ2h0ZXIgewogIGRpc3BsYXk6IG5vbmU7Cn0KLyogSGlkZSB0YWIgYm9yZGVyIGluIFBob3RvbiAqLwo6cm9vdCB7CiAgLS10YWItYm9yZGVyOiBub25lOwp9CgovKiBGaXggdGFiIGJvdHRvbSBtYXJnaW4gaW4gUGhvdG9uICovCnRhYi1pdGVtLXN1YnN0YW5jZSB7CiAgbWFyZ2luLWJvdHRvbTogMXB4Owp9Ci5waW5uZWQgdGFiLWl0ZW0tc3Vic3RhbmNlICB7CiAgbWFyZ2luLWJvdHRvbTogMHB4ICFpbXBvcnRhbnQ7Cn0KCi8qIFNwZWNpZnkgbmVzdGVkIHRhYiBjb3VudGVyIGNvbG9yICovCnRhYi1jb3VudGVyIHsKICBjb2xvcjogd2hpdGU7Cn0KCiAvKiBBZGp1c3Qgc3R5bGUgZm9yIHRhYiB0aGF0IGlzIG11dGVkLiAqLwoudGFiLm11dGVkIHsKICAgIG9wYWNpdHk6IDAuNTsKfQp0YWItaXRlbS5zb3VuZC1wbGF5aW5nIC5iYWNrZ3JvdW5kIHsKICBiYWNrZ3JvdW5kOiAjMDAwMDAwN0M7CiAgYm9yZGVyLXJhZGl1czogMHB4OwogIGJvcmRlci10b3A6IDRweCByZ2IoMjU1LDAsMCk7CiAgYm9yZGVyLWJvdHRvbTogNHB4IHJnYigyNTUsMCwwKTsKICBib3JkZXItcmlnaHQ6IDBweCB3aGl0ZTsKICBib3JkZXItbGVmdDogMHB4IHdoaXRlOwogIGJvcmRlci1zdHlsZTogc29saWQ7CiAgLyogYW5pbWF0aW9uLW5hbWU6IGNvbG9yOwogIGFuaW1hdGlvbi1kdXJhdGlvbjogMnM7CiAgYW5pbWF0aW9uLWl0ZXJhdGlvbi1jb3VudDogaW5maW5pdGU7ICovCn0=",
+  "closeParentBehaviorMode": 1,
+  "configsVersion": 27,
+  "context_bookmarkTree": false,
+  "context_closeTree": false,
+  "context_collapseAll": false,
+  "context_collapseTreeRecursively": false,
+  "context_expandAll": false,
+  "context_expandTreeRecursively": false,
+  "context_reloadTree": false,
+  "context_topLevel_bookmarkTree": true,
+  "context_topLevel_closeTree": true,
+  "enableWindowsBehaviors": true,
+  "iconColor": "dark",
+  "incognitoAllowedExternalAddons": [
+    "tst-more-tree-commands@piro.sakura.ne.jp",
+    "tst-active-tab-on-scrollbar@piro.sakura.ne.jp",
+    "{03e458a7-34a4-4ec9-b37b-952918c7e07b}",
+    "tst-colored-tabs@murz"
+  ],
+  "lastSelectedSubPanelProviderId": "@tst-search",
+  "lastSubPanelHeight": 35,
+  "maxTreeLevel": 10,
+  "notifiedFeaturesVersion": 9,
+  "optionsExpandedSections": [
+    "section-appearance",
+    "section-debug",
+    "section-addons",
+    "section-advanced",
+    "section-drag",
+    "section-treeBehavior",
+    "section-newTab",
+    "section-newTabWithOwner",
+    "section-contextMenu"
+  ],
+  "parentTabOperationBehaviorMode": 1,
+  "showDialogInSidebar": true,
+  "showExpertOptions": true,
+  "sidebarPosition": 1,
+  "style": "photon",
+  "syncDevices": {
+    "device-1683428510451-48441": {
+      "id": "device-1683428510451-48441",
+      "name": "W10 Desktop",
+      "icon": "home",
+      "timestamp": 1683895717958
+    }
+  },
+  "tabDragBehaviorShift": 12,
+  "treeDoubleClickBehavior": 1,
+  "userStyleRules": "",
+  "userStyleRulesFieldHeight": "832px",
+  "userStyleRulesFieldTheme": "blackboard",
+  "warnOnCloseTabs": false
+}
